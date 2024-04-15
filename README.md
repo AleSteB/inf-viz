@@ -1,2 +1,7 @@
-# inf-viz
- Visualization of inferred axioms with focus on individuals of ontologies
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```

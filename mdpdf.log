@@ -1,0 +1,8 @@
+    INFO: 2024-04-12 13:01:51,109:               log.py:   20: Logging to C:\Users\smaxbehr\Documents\GitHub\Ontologien_AD\Markdown-Grapher\mdpdf.log
+   DEBUG: 2024-04-12 13:01:51,110:               cli.py:  103: README.md
+    INFO: 2024-04-12 13:01:51,111:         converter.py:   14: README.md
+   DEBUG: 2024-04-12 13:01:51,113:      pdf_renderer.py:  470: printSegment:   graph TD;
+   DEBUG: 2024-04-12 13:01:51,116:      pdf_renderer.py:  470: printSegment:       A-->B;
+   DEBUG: 2024-04-12 13:01:51,116:      pdf_renderer.py:  470: printSegment:       A-->C;
+   DEBUG: 2024-04-12 13:01:51,117:      pdf_renderer.py:  470: printSegment:       B-->D;
+   DEBUG: 2024-04-12 13:01:51,118:      pdf_renderer.py:  470: printSegment:       C-->D;
