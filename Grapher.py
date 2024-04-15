@@ -87,12 +87,12 @@ searched_name = "Reaction_1"
 onto1 = owlready2.World()
 onto1 = get_ontology(ontology_name).load()
 
-onto2 = owlready2.World()
-onto2 = get_ontology(ontology_name).load()
+#onto2 = owlready2.World()
+#onto2 = get_ontology(ontology_name.replace(".owl","_inferred.owl")).load()
 
-with onto2:
-    sync_reasoner(infer_property_values = True)
-    onto2.save(ontology_name.replace(".owl","_inferred.owl"))
+#with onto2:
+#    sync_reasoner(infer_property_values = True)
+#    onto2.save(ontology_name.replace(".owl","_inferred.owl"))
 
 #onto2 = get_ontology("reac4cat_with_examples_inferred2.owl").load()
 
