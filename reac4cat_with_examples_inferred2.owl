@@ -1076,6 +1076,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000050"/>
   <onto:reac4cat_000004 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
   <rdfs:label>CatalystSample_1</rdfs:label>
 </owl:NamedIndividual>
 
@@ -1116,6 +1117,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <onto:reac4cat_000004 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000018"/>
   <onto:reac4cat_000004 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000039"/>
   <onto:reac4cat_000004 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
+  <onto:reac4cat_000004 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
   <rdfs:comment xml:lang="en">This mixture is an example mixture and models here a reactant mixture as would be used for a methanation reaction</rdfs:comment>
   <rdfs:label>EductMixture_4</rdfs:label>
 </owl:NamedIndividual>
@@ -1148,6 +1150,13 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000059"/>
   <onto:reac4cat_000006 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000021"/>
   <onto:reac4cat_000008 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000030"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000025"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000072"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000044"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000040"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000043"/>
   <rdfs:comment xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</rdfs:comment>
   <rdfs:label>Reaction_1</rdfs:label>
 </owl:NamedIndividual>
@@ -1157,6 +1166,24 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <onto:reac4cat_000006 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000022"/>
   <onto:reac4cat_000008 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000031"/>
   <onto:reac4cat_000056 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000076"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000017"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000016"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000072"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000038"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000044"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000042"/>
+  <onto:reac4cat_000054 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000040"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000047"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000040"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000046"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000039"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000043"/>
+  <onto:reac4cat_000053 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000003 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000040"/>
+  <onto:reac4cat_000003 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
   <onto:reac4cat_000013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250.0</onto:reac4cat_000013>
   <onto:reac4cat_000014 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450.0</onto:reac4cat_000014>
   <rdfs:comment xml:lang="en">This is an example individual which will be inferred as Haber Bosch reaction</rdfs:comment>
@@ -1167,6 +1194,15 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000059"/>
   <onto:reac4cat_000006 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000023"/>
   <onto:reac4cat_000008 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000032"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000029"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000038"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000042"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000047"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000046"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000039"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
   <rdfs:comment xml:lang="en">This is an example individual which will be inferred as methanation reaction</rdfs:comment>
   <rdfs:label>Reaction_3</rdfs:label>
 </owl:NamedIndividual>
@@ -1175,6 +1211,15 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000059"/>
   <onto:reac4cat_000006 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000023"/>
   <onto:reac4cat_000008 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000032"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000029"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000038"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000042"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000047"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000046"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000039"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
   <onto:reac4cat_000013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250.0</onto:reac4cat_000013>
   <onto:reac4cat_000014 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">375.0</onto:reac4cat_000014>
   <rdfs:comment xml:lang="en">This is an example individual which will be inferred as methanation reaction</rdfs:comment>
@@ -1185,6 +1230,18 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000059"/>
   <onto:reac4cat_000006 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000024"/>
   <onto:reac4cat_000008 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000032"/>
+  <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000017"/>
+  <onto:reac4cat_000015 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000073"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000038"/>
+  <onto:reac4cat_000007 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000042"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000047"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000067 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000046"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000039"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000041"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000018"/>
+  <onto:reac4cat_000005 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000003 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
   <onto:reac4cat_000013 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">249.0</onto:reac4cat_000013>
   <onto:reac4cat_000014 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">374.0</onto:reac4cat_000014>
   <rdfs:comment>This is an example individual which will be inferred as methanation reaction</rdfs:comment>
@@ -1193,41 +1250,68 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000038">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16183"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000035"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000036"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
   <rdfs:label>Sub_CH4</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000039">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000035"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000036"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
   <rdfs:label>Sub_CO2</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000040">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18248"/>
+  <onto:reac4cat_000058 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000069 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
   <rdfs:label>Sub_Fe</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000041">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18276"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000035"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000036"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000033"/>
   <rdfs:label>Sub_H2</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000042">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000035"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000036"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
   <rdfs:label>Sub_H2O</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000043">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17997"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000033"/>
   <rdfs:label>Sub_N2</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000044">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16134"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000065 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000033"/>
   <rdfs:label>Sub_NH4</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://nfdi4cat.org/ontologies/reac4cat_000045">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28112"/>
+  <onto:reac4cat_000009 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
+  <onto:reac4cat_000058 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000058 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
+  <onto:reac4cat_000064 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
   <rdfs:label>Sub_Ni</rdfs:label>
 </owl:NamedIndividual>
 
@@ -1253,6 +1337,8 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <rdf:type rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000074"/>
   <onto:reac4cat_000011 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000040"/>
   <onto:reac4cat_000011 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000033"/>
   <rdfs:comment>This individual models the reaction role of the Haber Bosch reaction</rdfs:comment>
   <rdfs:label>HaberBoschReacRole_Ind</rdfs:label>
 </owl:NamedIndividual>
@@ -1262,6 +1348,10 @@ This unwanted inference, in which all Individuals with the property 'has role' a
   <onto:reac4cat_000011 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000045"/>
   <onto:reac4cat_000011 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000046"/>
   <onto:reac4cat_000011 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000047"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000034"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000035"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000036"/>
+  <onto:reac4cat_000060 rdf:resource="https://nfdi4cat.org/ontologies/reac4cat_000037"/>
   <rdfs:comment>This individual models the reaction role of the methanation reaction</rdfs:comment>
   <rdfs:label>MethanationReacRole_Ind</rdfs:label>
 </owl:NamedIndividual>
