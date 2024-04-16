@@ -43,10 +43,10 @@ def md_from_onto_obj(indv, ontology_name):
 
 
 def onto_obj_to_md(ontology_name, obj_name):
-    onto1 = owlready2.World()
-    onto1 = get_ontology(ontology_name).load()
-    indv1 = onto1.search_one(label = obj_name)
-    md_from_onto_obj(indv1,ontology_name)
+    onto = owlready2.World()
+    onto = get_ontology(ontology_name).load()
+    indv = onto.search_one(label = obj_name)
+    md_from_onto_obj(indv,ontology_name)
 
 
 ###################
