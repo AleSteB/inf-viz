@@ -1,9 +1,11 @@
+Reaction_1 vor Inferenz:
 ```mermaid
  graph TD;
 Reaction_1--hasProductComponentSet-->ProductComponentSet_1
 Reaction_1--hasInitialMixture-->EductMixture_1
 ```
 
+Reaction_1 nach Inferenz:
 ```mermaid
  graph TD;
 Reaction_1--hasProductComponent-->Sub_NH4
