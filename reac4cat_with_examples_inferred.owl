@@ -23,8 +23,8 @@
   <term:hasPart rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
   <term:hasPart rdf:resource="https://raw.githubusercontent.com/rsc-ontologies/rxno/master/mop.owl"/>
   <term:hasPart rdf:resource="https://raw.githubusercontent.com/rsc-ontologies/rxno/master/rxno.owl"/>
-  <term:license rdf:resource="https://creativecommons.org/public-domain/cc0/"/>
-  <rdfs:seeAlso rdf:resource="https://nfdi4cat.org/en/"/>
+  <term:license rdf:resource="https://creativecommons.org/public-domain/cc0"/>
+  <rdfs:seeAlso rdf:resource="https://nfdi4cat.org/en"/>
   <x_0.1:homepage rdf:resource="https://github.com/AleSteB/Reac4Cat"/>
   <obo:IAO_0000116 xml:lang="en">Reused Ontologies: [Alexander Behr]
 AFO
@@ -125,7 +125,7 @@ A continuant cannot have an occurrent as part: use 'participates in'. An occurre
   <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
   <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20064205"/>
   <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
-  <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro/docs/reflexivity/"/>
+  <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro/docs/reflexivity"/>
   <obo:IAO_0000115>q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w.</obo:IAO_0000115>
   <obo:IAO_0000116>Because part_of is transitive, inheres in is a sub-relation of characteristic of part of</obo:IAO_0000116>
   <obo:IAO_0000118>inheres in part of</obo:IAO_0000118>
@@ -334,7 +334,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 </owl:DatatypeProperty>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasPart">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
   <term:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of.</term:description>
@@ -344,7 +344,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
   <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/rights"/>
   <term:description xml:lang="en">Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided.</term:description>
@@ -436,7 +436,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
   <rdfs:comment xml:lang="en">A summary of the resource.</rdfs:comment>
@@ -444,7 +444,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 </owl:AnnotationProperty>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
   <term:description xml:lang="en">Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.</term:description>
   <rdfs:comment xml:lang="en">An account of the resource.</rdfs:comment>
@@ -452,7 +452,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 </owl:AnnotationProperty>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/references">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
   <term:description xml:lang="en">This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By.</term:description>
@@ -461,7 +461,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 </owl:AnnotationProperty>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
   <term:description xml:lang="en">Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided.</term:description>
   <rdfs:comment xml:lang="en">A related resource.</rdfs:comment>
@@ -471,7 +471,7 @@ This unwanted inference, in which all Individuals with the property 'has role' a
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
 
 <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
-  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+  <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/source"/>
   <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
   <term:description xml:lang="en">This property is intended to be used with non-literal values. The described resource may be derived from the related resource in whole or in part. Best practice is to identify the related resource by means of a URI or a string conforming to a formal identification system.</term:description>
