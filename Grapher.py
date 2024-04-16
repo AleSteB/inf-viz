@@ -11,43 +11,6 @@ Created on Fri Apr 12 11:16:29 2024
 #https://github.com/floresbakker/OntoMermaid
 
 
-"""
-from python_mermaid.diagram import (
-    MermaidDiagram,
-    Node,
-    Link
-)
-
-# Family members
-meg = Node("Meg")
-jo = Node("Jo")
-beth = Node("Beth")
-amy = Node("Amy")
-robert = Node("Robert March")
-
-the_march_family = [meg, jo, beth, amy, robert]
-
-# Create links
-family_links = [
-    Link(robert, meg),
-    Link(robert, jo),
-    Link(robert, beth),
-    Link(robert, amy),
-]
-
-chart = MermaidDiagram(
-    title="Little Women",
-    nodes=the_march_family,
-    links=family_links
-)
-
-print(chart)
-with open('mermaid.mmd',"w") as file:
-    file.write(chart.string)
-
-subprocess.run("mdpdf -o article.pdf README.md")
-"""
-
 from owlready2 import *
 
 
@@ -78,27 +41,24 @@ def md_from_onto_obj(indv, ontology_name):
     with open(ontology_name.replace(".owl",".md"),"w") as file:
         file.write(mermaid_str)
 
+
+def onto_obj_to_md(ontology_name, obj_name):
+    onto1 = owlready2.World()
+    onto1 = get_ontology(ontology_name).load()
+    indv1 = onto1.search_one(label = obj_name)
+    md_from_onto_obj(indv1,ontology_name)
+
+
 ###################
 
 ontology_name = "reac4cat_with_examples.owl"
+ontology_name_inf = "reac4cat_with_examples_inferred.owl"
+
 searched_name = "Reaction_1"
 
-onto1 = owlready2.World()
-onto1 = get_ontology(ontology_name).load()
-indv1 = onto1.search_one(label = searched_name)
-md_from_onto_obj(indv1,ontology_name)
+onto_obj_to_md(ontology_name,searched_name)
+onto_obj_to_md(ontology_name_inf,searched_name)
 
-
-onto2 = owlready2.World()
-onto2 = get_ontology(ontology_name.replace(".owl","_inferred.owl")).load()
-
-#with onto2:
-#    sync_reasoner(infer_property_values = True)
-#    onto2.save(ontology_name.replace(".owl","_inferred.owl"))
-#
-#onto2 = get_ontology("reac4cat_with_examples_inferred.owl").load()
-indv2 = onto2.search_one(label = searched_name)
-md_from_onto_obj(indv2,ontology_name.replace(".owl","_inferred.owl"))
 
 
 
